@@ -21,15 +21,15 @@ class ViewController: UIViewController {
     
     var imageViews: [UIImageView] = []  //Array for all the imageviews on screen
     
-    var swapState: [UIImageView] = [] //Array to keep track of current position of imageviews                                                when they are moved
+    var swapState: [UIImageView] = [] //Array to keep track of current position of imageviews when they are moved
     
-    var originalState: [CGPoint] = []  //Array that tracks the coordinates of original position of                                            imageviews
+    var originalState: [CGPoint] = []  //Array that tracks the coordinates of original position of imageviews
    
     var updatedState: [CGPoint] = []   //array to hold updated position of all the images
     
     var blankImage:UIImageView!  //Imageview of the blank image
     
-    var lockScreen:Bool = true  // boolean variable to block user clicking on Images tiles when they click                              show answer button
+    var lockScreen:Bool = true  // boolean variable to block user clicking on Images tiles when they click show answer button
 
     
     override func viewDidLoad() {
